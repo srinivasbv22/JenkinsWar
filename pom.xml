@@ -15,7 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
- <distributionManagement>
+ 
+  
+  <build>
+    <finalName>JenkinsWar</finalName>
+  </build>
+	<distributionManagement>
 
 <repository>
 	<id>release</id>
@@ -32,8 +37,5 @@
 </SnapshotRepository>
 
 </distributionManagement> 
-  
-  <build>
-    <finalName>JenkinsWar</finalName>
-  </build>
+	
 </project>
