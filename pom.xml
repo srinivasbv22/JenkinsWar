@@ -15,6 +15,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+ <distributionManagement>
+
+<repository>
+	<id>release</id>
+	<name>Release</name>
+	<url>http://ekirp34487dns.westus.cloudapp.azure.com:8081/repository/srini/</url>
+
+</repository>
+
+
+<SnapshotRepository>
+	<id>snapshot</id>
+	<name>Snapshot</name>
+	<url>http://ekirp34487dns.westus.cloudapp.azure.com:8081/repository/srini/</url>
+</SnapshotRepository>
+
+</distributionManagement> 
+  
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
