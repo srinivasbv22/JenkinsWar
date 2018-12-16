@@ -30,11 +30,11 @@
 </repository>
 
 
-<SnapshotRepository>
+<snapshotRepository>
 	<id>snapshot</id>
 	<name>Snapshot</name>
 	<url>http://ekirp34487dns.westus.cloudapp.azure.com:8081/repository/srini/</url>
-</SnapshotRepository>
+</snapshotRepository>
 
 </distributionManagement> 
 	
